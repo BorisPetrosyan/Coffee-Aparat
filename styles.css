@@ -1,0 +1,82 @@
+body {
+    background-image: url('coffee.png');
+    background-repeat: no-repeat;
+}
+
+.contanier {
+    margin: 246px 0 0px 225px;
+}
+
+.coffes {
+    display: inline-block;
+    padding: 7px;
+    font-size: 10px;
+    color: cornsilk;
+    margin-top: 15px;
+    font-family: system-ui;
+}
+
+.draggableContanier {
+    position: absolute;
+    margin-left: 232px;
+    margin-top: 50px;
+    width: 35px;
+    border-radius: 20px;
+    height: 32px;
+    background-color: red;
+}
+
+.coffes p {
+    cursor: pointer;
+    padding: 12px;
+    transition: 0.7s;
+}
+
+.moneyIn {
+    width: 88px;
+    height: 17px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-left: 22px;
+}
+
+.moneyIn p {
+    color: black;
+    padding-left: 25px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.coffes p:hover {
+    color: yellow;
+}
+
+.coffes span {
+    font-size: 11px;
+    padding-left: 72px;
+    font-family: monospace;
+    color: darkmagenta;
+}
+
+.coffes div {
+    display: flex;
+}
+
+.coinContanier {
+    display: inline-block;
+}
+
+.coinContanier img {
+    height: 45px;
+    display: flex;
+    margin-left: 550px;
+    padding-bottom: 11px;
+}
+
+.coinContanier img {
+    cursor: grab;
+}
+
+.ggg {
+    background-color: blueviolet;
+}
